@@ -5,30 +5,26 @@
   box-sizing: border-box;
 }
 /* /Reset */
-body{
-  background-color: white;
-}
 .box{
   margin: auto;
   padding: 10px;
   width: 90%;
   height:1000px;
 }
-/* INTESTAZIONE */
-header{
-  background-color: #e266d7;
+.involucro{
   margin: auto;
   margin-bottom: 10px;
   width: 100%;
+}
+/* INTESTAZIONE */
+header{
+  background-color: #e266d7;
   height:calc(14% - 10px); /*da togliere successivamente*/
 }
 /* /INTESTAZIONE */
 /* BANNER */
 main{
   background-color: #d4cd66;
-  margin: auto;
-  margin-bottom: 10px;
-  width: 100%;
   height:calc(35% - 10px); /*da togliere successivamente*/
 }
 /* /BANNER */
@@ -42,10 +38,7 @@ main{
 /* /CLEARFIX */
 section{
   background-color: #42b2f5;
-  margin: auto;
-  margin-bottom: 5px;
-  width: 100%;
-  height:calc(45% - 5px); /*da togliere successivamente*/
+  height:calc(45% - 10px); /*da togliere successivamente*/
 }
 .int-top{
   background-color: lightblue;
@@ -56,27 +49,23 @@ section{
   width: 100%;
   height: 90%; /*da togliere successivamente*/
 }
-.col-sx, .col-dx {
+.col{
   float: left;
   background-color: lightblue;
+  margin: 10px;
+}
+.sx, .dx {
   height:calc(100% - 20px); /*da togliere successivamente*/
   width:calc(15% - 20px);
-  margin: 10px 10px 10px 10px;
 }
-.col-cen {
-  float: left;
-  background-color: lightblue;
+.cen {
   height:calc(100% - 20px); /*da togliere successivamente*/
   width:calc(70% - 20px);
-  margin: 10px 10px 10px 10px;
 }
 /* -------------------/CORPO DELLA PAGINA------------------- */
 /* PIE DI PAGINA */
 footer{
   background-color: #a313de;
-  margin: auto;
-  margin-bottom: 10px;
-  width: 100%;
   height:calc(8% - 20px); /*da togliere successivamente*/
 }
 /* /PIE DI PAGINA */
