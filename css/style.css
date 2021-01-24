@@ -7,7 +7,6 @@
 /* /Reset */
 .box{
   margin: auto;
-  padding: 10px;
   width: 90%;
   height:1000px;
 }
@@ -19,7 +18,7 @@
 /* INTESTAZIONE */
 header{
   background-color: #e266d7;
-  height:calc(14% - 10px); /*da togliere successivamente*/
+  height:calc(12% - 10px); /*da togliere successivamente*/
 }
 /* /INTESTAZIONE */
 /* BANNER */
