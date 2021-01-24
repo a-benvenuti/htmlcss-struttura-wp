@@ -18,13 +18,13 @@
 /* INTESTAZIONE */
 header{
   background-color: #e266d7;
-  height:calc(12% - 10px); /*da togliere successivamente*/
+  height:calc(12% - 10px);
 }
 /* /INTESTAZIONE */
 /* BANNER */
 main{
   background-color: #d4cd66;
-  height:calc(35% - 10px); /*da togliere successivamente*/
+  height:calc(35% - 10px);
 }
 /* /BANNER */
 /* -------------------CORPO DELLA PAGINA------------------- */
@@ -37,16 +37,14 @@ main{
 /* /CLEARFIX */
 section{
   background-color: #42b2f5;
-  height:calc(45% - 10px); /*da togliere successivamente*/
+  height:calc(45% - 10px);
 }
 .int-top{
   background-color: lightblue;
-  width: 100%;
-  height: 10%; /*da togliere successivamente*/
+  height: 10%;
 }
 .container{
-  width: 100%;
-  height: 90%; /*da togliere successivamente*/
+  height: 90%;
 }
 .col{
   float: left;
@@ -54,17 +52,17 @@ section{
   margin: 10px;
 }
 .sx, .dx {
-  height:calc(100% - 20px); /*da togliere successivamente*/
+  height:calc(100% - 20px);
   width:calc(15% - 20px);
 }
 .cen {
-  height:calc(100% - 20px); /*da togliere successivamente*/
+  height:calc(100% - 20px);
   width:calc(70% - 20px);
 }
 /* -------------------/CORPO DELLA PAGINA------------------- */
 /* PIE DI PAGINA */
 footer{
   background-color: #a313de;
-  height:calc(8% - 20px); /*da togliere successivamente*/
+  height:calc(8% - 20px);
 }
 /* /PIE DI PAGINA */
